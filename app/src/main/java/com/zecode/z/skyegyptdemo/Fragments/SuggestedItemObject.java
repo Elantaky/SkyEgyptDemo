@@ -14,9 +14,7 @@ public class SuggestedItemObject {
         return imageResourceId;
     }
 
-    public void setImageResourceId(int imageResourceId) {
-        this.imageResourceId = imageResourceId;
-    }
+
     public boolean hasImage() {
 
         return HASIMAGE != imageResourceId;

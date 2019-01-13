@@ -6,23 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <android.support.design.widget.NavigationView
         android:id="@+id/mainNavigationView"
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/header_for_drawer"
-        app:menu="@menu/menu">
-    </android.support.design.widget.NavigationView>
-<ListView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/list_item">
+        app:menu="@menu/menu"/>
 
-</ListView>
-<!--    <FrameLayout
+    <ListView
+        android:id="@+id/list_item"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fragmentLayout">
-    </FrameLayout>-->
+        android:layout_height="wrap_content"/>
+
 </android.support.v4.widget.DrawerLayout>

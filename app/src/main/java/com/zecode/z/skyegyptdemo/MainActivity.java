@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
     private ActionBarDrawerToggle actionBarDrawerToggle;
-    int[] photos={R.drawable.first,R.drawable.second,R.drawable.third,R.drawable.fourth};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

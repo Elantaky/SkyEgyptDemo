@@ -15,9 +15,9 @@ import android.widget.ListView;
 
 import com.zecode.z.skyegyptdemo.R;
 
-public class Fragment_innerTours extends Fragment {
+public class FragmentForInternalTours extends Fragment {
 
-    ListView innertours_pics;
+   /* ListView innertours_pics;
     ImageView imageView;
     int[] photos={R.drawable.first,R.drawable.second,R.drawable.third,R.drawable.fourth};
 
@@ -48,7 +48,6 @@ public class Fragment_innerTours extends Fragment {
 
             }
         });
-
     }
 
     public class CustomList extends BaseAdapter {
@@ -86,6 +85,6 @@ public class Fragment_innerTours extends Fragment {
             imageView.setImageResource(images[position]);
             return myView;
         }
-    }
+    }*/
 
 }
